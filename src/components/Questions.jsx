@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import "./../css/routes/homepage/Questions.css";
 
 export default function Questions({ questionTitle, ctaLink }) {

@@ -1,15 +1,11 @@
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Rug from "../assets/traceabilityImgs/rug.png";
 import Smog from "../assets/traceabilityImgs/smog.svg";
 import SmogText from "../assets/traceabilityImgs/smogText.svg";
-import Teapot from "../assets/traceabilityImgs/teapot.png";
+import Teapot from "../assets/traceabilityImgs/teapotQR.png";
 import "../css/routes/TraceabilityChain.css";
 
 export default function TraceabilityChain({ loadingComplete }) {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   const animVariants = {
     hidden: { opacity: 0 },
